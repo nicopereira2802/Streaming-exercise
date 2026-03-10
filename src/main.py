@@ -1,8 +1,10 @@
 from parser import load_episodes
 from validator import validate_episodes
 from deduplicator import deduplicate
+from writer import save_data
+from writer import save_report
 
-def test_parseo():
+def main():
     path = "data/episodes_input.csv"
 
     print("iniciando lectura ")
@@ -16,7 +18,7 @@ def test_parseo():
         print(f" linea {i.line}: {i.series} - temporada {i.season}")
 
     print("-" * 60)
-    
+
     valid_episodes = validate_episodes(listaEpisodios)
 
     for i in valid_episodes:
@@ -43,5 +45,9 @@ def test_parseo():
             f"line {ep.line} | {ep.series} | S{ep.season}E{ep.number} | {ep.title} | {ep.date}"
         )
 
+    save_data(unique_episodes,"output/episodes_clean.csv")
+    save_report(listaEpisodios,unique_episodes,"output/report.md")
+
+
 if __name__ == "__main__":
-    test_parseo()
+    main()
