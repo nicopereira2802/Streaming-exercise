@@ -3,7 +3,7 @@ class Episode:
         self.series = str(series_name).strip()
         self.season = season
         self.number = episode_number
-        self.title = str(title).strip() or "Untitled Ep"
+        self.title = str(title).strip() or "Untitled Episode"
         self.date = str(date).strip()
 
         self.line = line
