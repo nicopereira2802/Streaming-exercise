@@ -1,7 +1,10 @@
 import csv
+import os
 
 def save_data(episodes,path):
 
+    os.makedirs("output", exist_ok=True)
+    
     headers = ['series_name','season_number','episode_number','episode_title','air_date']
 
     with open(path,mode='w',encoding='utf-8',newline='') as f:
