@@ -1,0 +1,24 @@
+series_name,season_number,episode_number,episode_title,air_date
+The Office,1,1,Pilot,2005-03-24
+The Office,1,2,Diversity Day,2005-03-29
+The Office,1,3,Health Care,2005-04-05
+Breaking Bad,1,1,Pilot,2008-01-20
+Breaking Bad,1,2,Cat's in the Bag...,2008-01-27
+Breaking Bad,1,3,...And the Bag's in the River,2008-02-10
+Breaking Bad,0,1,Pilot,2008-01-20
+Breaking Bad,1,0,Pilot,2008-01-20
+Friends,1,1,The One Where Monica Gets a Roommate,1994-09-22
+Friends,1,2,The One with the Sonogram,1994-09-29
+Friends,0,2,The One with the Sonogram,1994-09-29
+The Mandalorian,1,1,Untitled Episode,2019-11-12
+The Mandalorian,1,2,The Child,2019-11-15
+The Mandalorian,1,3,The Sin,2019-11-22
+The Mandalorian,0,1,Untitled Episode,2019-11-12
+Game of Thrones,1,1,Winter Is Coming,2011-04-17
+Game of Thrones,1,2,The Kingsroad,2011-04-24
+Game of Thrones,1,0,Winter Is Coming,2011-04-17
+Game of Thrones,0,1,Winter Is Coming,2011-04-17
+Lost,1,1,Pilot,2004-09-22
+Lost,1,2,Pilot Part 2,2004-09-29
+Lost,1,0,Pilot,2004-09-22
+Lost,0,1,Pilot,2004-09-22
