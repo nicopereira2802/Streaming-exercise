@@ -14,4 +14,4 @@ Python program that cleans a corrupted catalog of TV episodes.
 ## Run
 
 ```bash
-python src/main.py
+python3 src/main.py
